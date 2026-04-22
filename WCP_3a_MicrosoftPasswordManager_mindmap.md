@@ -1,0 +1,85 @@
+# 3A. Microsoft Password Manager
+
+- **3A.1 Ask to save passwords** · [OFF]
+  - *Allow Copilot to ask to save your passwords and keep them safe*
+- **3A.2 More settings**
+  - **3A.2.1 Ask to save passwords** · [OFF]
+    - *Allow Copilot to ask to save your passwords and keep them safe*
+  - **3A.2.2 Autofill passwords** · [ON]
+    - *Allow Copilot to autofill existing passwords*
+    - **3A.2.2.1 ◉ Fill website password and sign in automatically** · Selected
+      - *Your saved passwords get auto-filled in web forms*
+      - *You can automatically sign-in to websites where this functionality exists*
+    - **3A.2.2.2 ○ Prompt for device sign-in options before viewing or filling website password** · Not selected
+  - **3A.2.3 Scan passwords for leaks** · [OFF]
+    - *Continuously scan your passwords in Copilot against known leaks and get notified*
+  - **3A.2.4 Show 'Reveal password' button** · [ON]
+    - *Shows a button to let you view your password as you type*
+    - *This may not work on all sites*
+  - **3A.2.5 Suggest strong passwords** · [OFF]
+    - *Password suggestions work when Password Sync and Ask to save passwords are both set to on*
+- **3A.3 Passwords** (section)
+  - **3A.3.1 Search passwords**
+    - *Filter saved password entries by keyword*
+  - **3A.3.2 + Add password**
+    - Website URL ✱ → Enter Web URL
+    - Username ✱ → Enter username
+    - Password ✱ → Enter password (eye icon to reveal)
+    - Note (optional) → Add notes
+    - *Notice: Adding the password here saves it only in Microsoft Edge. Make sure the password you save here matches your password for the website.*
+    - Actions: Cancel · Add
+  - **3A.3.3 ··· More options**
+    - **3A.3.3.1 Import passwords**
+      - **Step 1 · Import passwords dialog**
+        - *To import passwords to your Copilot Account, from other application or select a CSV file*
+        - Import from: Passwords CSV file (dropdown)
+        - *Learn how to export a passwords CSV file from a password manager*
+        - Choose CSV file → opens file picker
+        - Cancel
+      - **Step 2 · File picker — Import Passwords To Copilot**
+        - File type: Microsoft Excel Comma Separated Values
+        - Actions: Open · Cancel
+      - **Step 3 · Import success notice**
+        - *[n] passwords imported successfully!*
+        - *For your security, we recommend deleting your password file now. Once deleted, it cannot be recovered by anyone.*
+        - ☐ Delete [filename].csv from your device (optional checkbox)
+        - Actions: OK
+    - **3A.3.3.2 Export passwords**
+      - **Step 1 · Export passwords dialog**
+        - *Your passwords will be visible to anyone who can see the exported file*
+        - Actions: Export · Cancel
+      - **Step 2 · File save — Export Passwords From Copilot**
+        - Default file name: Microsoft Copilot Passwords.csv
+        - Save as type: Microsoft Excel Comma Separated Values File (*.csv)
+        - Actions: Save · Cancel
+  - **3A.3.4 Password security check**
+    - **3A.3.4.1 Enable leaked password scan in settings** · [OFF]
+    - **3A.3.4.2 Scan result tabs**
+      - Leaked (0)
+      - Reused (0)
+      - Weak (n) — active tab
+    - **3A.3.4.3 Weak tab — Create stronger passwords**
+      - *Weak passwords are easier to guess. Keep your accounts more secure with stronger passwords.*
+      - Per entry: site domain · username (if present) · masked password · eye icon
+      - Actions per entry: Change · ···
+  - **3A.3.5 Saved password entries** (grouped by site)
+    - **3A.3.5.1 Single account** — e.g. google.com (1 account)
+      - Account name [copy]
+      - Site URL [external link]
+      - Password: masked [eye] [copy]
+      - Note: *No note added* or custom text
+      - Actions: Edit → 3A.3.6 · Delete
+    - **3A.3.5.2 Multiple accounts** — e.g. chinamobile.com (2 accounts)
+      - *All accounts shown expanded on one page, each with full fields below*
+      - Account name [copy]
+      - Password: masked [eye] [copy]
+      - Site URL [external link]
+      - Note: *No note added*
+      - Actions: Edit → 3A.3.6 · Delete
+  - **3A.3.6 Edit password modal**
+    - Site: read-only · shown as clickable link
+    - Username ✱ → Enter username
+    - Password ✱ → masked [eye] [copy]
+    - Note (optional) → Add notes
+    - *Notice: Changing the password here updates it only in Microsoft Copilot. Make sure the password matches the website.*
+    - Actions: Save · Cancel
