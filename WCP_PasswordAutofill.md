@@ -344,7 +344,7 @@ Passwords and autofill
 | Expiration | ✱ | [MM ▼] [YYYY ▼] | Two separate dropdowns (month / year) |
 | CVV | Optional | Enter CVV | Eye icon to reveal; ⓘ info button with tooltip |
 | Card nickname | Optional | Enter a nickname | |
-| Billing address | Optional | Add new address [▼] | Dropdown; no address pre-filled when adding a new card |
+| Billing address | ✱ / Optional | Add new address [▼] | **Mandatory for server (roaming) cards; optional for local cards** |
 
 **CVV ⓘ tooltip:**
 > *"If provided, CVV will be securely stored on this device to make autofill quicker and easier.*
@@ -378,11 +378,11 @@ Passwords and autofill
 | Expiration | ✱ | [MM ▼] [YYYY ▼] | e.g. 11 / 2029 |
 | CVV | Optional | Enter CVV [eye] | ⓘ tooltip (same as Add modal) |
 | Card nickname | Optional | Enter a nickname | |
-| Billing address | ✱ | [existing address] [▼] | Required (*) when an address is already saved to this card |
+| Billing address | ✱ / Optional | [existing address] [▼] | **Mandatory for server (roaming) cards; optional for local cards** |
 
-> **Billing address required vs. optional:**
-> In the Add modal, billing address is *optional* because no address exists yet.
-> In the Edit modal, billing address becomes *required* (*) once an address has been saved.
+> **Billing address — card type rule:**
+> Billing address is **mandatory** for server (roaming) cards — cards synced via Microsoft account across devices.
+> Billing address is **optional** for local cards — cards saved only on this device.
 
 **Billing address dropdown options:**
 - • [existing address] — currently selected, e.g. *23B, Tower5,Phase1, 6 LaiYing, HONG KONG , Hong Kong SAR*
