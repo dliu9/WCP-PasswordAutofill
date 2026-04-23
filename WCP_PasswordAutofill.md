@@ -1,10 +1,41 @@
-# WCP Browser Settings — Passwords and Autofill
+# WCP Browser Settings — Sync · Passwords and Autofill
 
-> **Path:** Settings → Passwords and autofill
+> **Paths:** Settings → Sync and import → Sync · Settings → Passwords and autofill
 
-This document covers all sub-sections under **Passwords and autofill**:
+This document covers:
+- [Sync](#sync)
 - [3A. Microsoft Password Manager](#3a-microsoft-password-manager)
 - [3B. Payment Methods](#3b-payment-methods)
+- [3C. Addresses and More](#3c-addresses-and-more)
+
+---
+
+# Sync
+
+> **Path:** Sync and import → Sync
+
+**Page description:** Sync all your browsing data between Copilot apps and Edge across your signed-in devices.
+
+## Toggle defaults
+
+| Toggle | Default state | Controls |
+|---|---|---|
+| Passwords | **OFF** | 3A · Microsoft Password Manager |
+| Payments using Microsoft account | **ON** | 3B · Payment Methods |
+| Personal info | **OFF** | 3C · Addresses and More |
+
+## Toggle descriptions
+
+| Toggle | Description |
+|---|---|
+| Passwords | Stored securely and made available on all your devices. *Review security settings* to help make your Microsoft account even more secure. |
+| Payments using Microsoft account | Cards saved in Microsoft account will be available to use across signed in devices and Microsoft products. Manage these cards in your *Microsoft account*. |
+| Personal info | Information like name, date of birth, address and more are saved so online forms are filled automatically. |
+
+## Design note — Compliance implication
+
+> **Because Password Sync and Personal Info Sync are default OFF, the Sync entry point must be prominently accessible.**
+> If users cannot easily find the Sync page to turn these on, compliance requirements will not be met.
 
 ---
 
@@ -126,12 +157,12 @@ Passwords and autofill
 
 > *"To import passwords to your Copilot Account, from other application or select a CSV file."*
 
-| Element | Value |
-|---|---|
-| Import from (dropdown) | Passwords CSV file |
-| Help link | "Learn how to export a passwords CSV file from a password manager" |
-| Primary action | [Choose CSV file] |
-| Secondary action | [Cancel] |
+| Element                | Value                                                              |
+| ---------------------- | ------------------------------------------------------------------ |
+| Import from (dropdown) | Passwords CSV file                                                 |
+| Help link              | "Learn how to export a passwords CSV file from a password manager" |
+| Primary action         | [Choose CSV file]                                                  |
+| Secondary action       | [Cancel]                                                           |
 
 #### Step 2: File picker dialog
 
